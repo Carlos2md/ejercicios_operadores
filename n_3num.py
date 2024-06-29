@@ -1,0 +1,5 @@
+name=str(input("¡Hola! cual es tu nombre: " ))
+print(f"¡{name}! Vamos a verificar si el valor a ingresar es >10")
+num1=int(input("Ingresa el valor: "))
+resultado=not(num1>10)
+print("El resultado es:",resultado)

@@ -1,0 +1,10 @@
+name=str(input("¡Hola! cual es tu nombre: " ))
+print(f"¡{name}! Vamos a ingresar 3 valores")
+num1=int(input("Ingresa el primer valor:Carlos "))
+num2=int(input("Ingresa el segundo valor: "))
+num3=int(input("Ingresa el tercer valor: "))
+resultado1=(num1>5)
+resultado2=(num2<10)
+resultado3=(num3==20)
+rfinal=(resultado1 and resultado2) or resultado3
+print("El resultado es:",rfinal)
